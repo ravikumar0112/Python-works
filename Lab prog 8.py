@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep  7 19:33:52 2021
 
-@author: saras
-"""
 
 #Create a Dictionary of series
 
@@ -16,12 +11,12 @@ arr = np.array([56,56,56,78,98,76,54,56,43,32,34,34,34,34,51])
 arr_mode = mode(arr)
 print(arr_mode)
 
-'''
+
 arr_median = np.mode(arr)
 print ("Median Values in the Distribution",end =' ')
 print(arr_median)
 
-'''
+
 d = {'Name':pd.Series(['Tom','James','Ricky','Vin','Steve','Smith','Jack',
    'Lee','Chanchal','Gasper','Naviya','Andres']),
    'Age':pd.Series([25,26,25,23,30,29,23,34,40,30,51,46]),
@@ -38,3 +33,4 @@ import matplotlib.pyplot as plt
 
 plt.plot(df['Age'])
 print( '\nSkewness for data : ', skew(df['Age']))
+
