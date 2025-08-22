@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep  2 14:39:56 2021
 
-@author: saras
-"""
 import pandas as pd
 import numpy as np
 
@@ -27,4 +22,5 @@ for i in c:
 #print(Col3)
 result['rel.freq'] = Col3
 #print(result)
+
 
