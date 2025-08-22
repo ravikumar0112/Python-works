@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Sep  5 22:21:48 2021
 
-@author: saras
-"""
-'''
 import pandas as pd
 import numpy as np
 
@@ -43,7 +37,7 @@ df = pd.DataFrame(data, index=['rank1','rank2','rank3','rank4'])
 agr = df['Age'].agg([np.sum,np.mean, np.std])
 print(agr)
 
-'''
+
 import pandas as pd
 one = pd.DataFrame({
    'Name': ['Alex', 'Amy', 'Allen', 'Alice', 'Ayoung'],
@@ -57,4 +51,5 @@ two = pd.DataFrame({
    'Marks_scored':[89,80,79,97,88]},
    index=[1,2,3,4,5])
 print (pd.concat([one,two],ignore_index = True))
+
 
